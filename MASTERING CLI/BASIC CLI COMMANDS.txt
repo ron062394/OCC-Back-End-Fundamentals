@@ -1,10 +1,11 @@
-pwd - present working directory
-touch - create a new file
-mkdir - create a new directory
-mv - rename a file / directory
-clear - clear terminal
-cd - change directory
-cd .. - move up to the parent directory
-ls - list all files and directory within the pwd
-mv - moving file or directory
-rm - Delete a file or directory
+'pwd' : Present Working Directory - displays the current directory.
+'touch' : Create a new file.
+'mkdir' : Create a new directory.
+'mv' : Rename or move a file/directory.
+'clear' : Clear the terminal screen.
+'cd' : Change directory.
+'cd ..' : Move up to the parent directory.
+'ls' : List all files and directories within the present working directory.
+'rm' : Delete a file or directory.
+'cp' : Copy files or directories.
+'history' : Display a list of previously executed commands.
