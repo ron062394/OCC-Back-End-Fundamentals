@@ -1,0 +1,38 @@
+Configuration Commands
+
+git config --global user.name your-username - to change username
+git config --global user.email your-email - to change email
+git config user.name - to check username
+git config user.email - to check email
+
+Creating Repos
+
+git init - initialize local git repo
+
+Committing
+
+git status - shows which files are in the staging area
+git add filename - stages file
+git commit -m "commit message" - committing files in the staging area
+git rm --cached filename - removes a file from staging area
+
+git reset - removes all files in the staging area
+
+git log - see commit history
+git log --oneline - shortens commit history 
+
+Branching
+
+git branch newBranchName - create a new branch
+git branch -a - list all branches
+git switch branchName - switches to a branch
+git merge branchName - merges branch into branch we are on
+git branch -d branchName - deletes branch if merged in master branch
+
+git checkout commitID - seeing state of the code in a particular commit
+
+Remote Repositories
+
+git remote add origin URLtoRemoteRepo - link remote repo to local repo
+git branch -M main - renaming 'master' branch to 'main'
+git push -u origin main - pushing into origin main branch 
